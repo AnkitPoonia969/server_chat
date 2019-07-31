@@ -20,4 +20,4 @@ while True:
         print("client->".rjust(170),m.decode())
         if  m.decode() == 'bye' :
             c.close()
-            sys.exit("Bye Bye ")
+            sys.exit("okay bye ")
